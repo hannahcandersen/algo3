@@ -1,0 +1,1 @@
+Get-Content .\1.in | python3 sol.py
