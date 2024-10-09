@@ -8,6 +8,10 @@ Figure out if you need to add, subtract or multiply the numbers to get different
 Solve it as a flow problem. 
 Each pair has a edge to the result of the three operations, with capacity 1.
 Each result has an edge to the sink with capacity 1, as only one question can have that result
+
+
+TODO: Use same type in all nodes, e.g. int or str
+TODO: Print by looking at which edges in the residual graph and visited. if their residual capacity is 0, then it is a used edge
 """
 from collections import defaultdict
 from flow import flow
